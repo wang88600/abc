@@ -1,7 +1,7 @@
 import serial
 
 # 打開串口
-ser = serial.Serial('COM1', 9600, timeout=1) # 是印表機可以用串口、網卡等連接開發。我選擇用串口了
+ser = serial.Serial('COM1', 9600, timeout=1) # 預設印表機串口
 
 # 設定ZPL指令
 zpl_command = '''
